@@ -1,37 +1,26 @@
-/* GENERALI */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 /* HEADER */
 header,footer {
     background-color: rgb(44, 62, 80);
 }
 
-header ul {
-    display: none;
-}
-
 /* MAIN */
-.container {
-    width: calc(100% - 20px);
+.ms_avatar-img {
+    max-width: 320px;
 }
 
-.green {
+.ms_fancy-bar {
+    height: 5px;
+    width: 10%;
+    min-width: 50px;
+    border-radius: 15px;
+}
+
+.ms_portfolio-img {
+    max-width: 320px;
+    background-color: blue;
+}
+
+.aqua {
     background-color: rgb(26, 188, 156);
 }
 
-
-/* DEBUG */
-main .container {
-    height: 100%;
-    background-color: brown;
-}
-
-main .col, [class*="col-"] {
-    border: 1px solid;
-    background-color: green;
-    height: 300px;
-}
